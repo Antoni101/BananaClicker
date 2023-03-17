@@ -1,0 +1,166 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: DarkSlateBlue;
+  user-select: none;
+}
+
+#banana {
+  position: absolute;
+  top: 27%;
+  left: 38%;
+  transition: 0.1s;
+}
+
+#banana:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#banana:active {
+  transform: scale(0.9, 0.9);
+}
+
+#bananaCounter {
+  position: absolute;
+  top: 3%;
+  left: 42%;
+  color: yellowgreen;
+  text-transform: uppercase;
+  font-family: "Tahoma", sans-serif;
+}
+
+#bps {
+  position: absolute;
+  top: 10%;
+  left: 43.5%;
+  color: yellowgreen;
+  text-transform: uppercase;
+  font-family: "Tahoma", sans-serif;
+  font-size: 20px;
+}
+
+#perClick {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  height: 60px;
+  background-color: grey;
+  color: white;
+  padding: 0 20px;
+  top: 3%;
+  left: 3%;
+}
+
+#farmUpgrade {
+  top: 28%;
+  left: 3%;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  height: 60px;
+  background-color: grey;
+  color: white;
+  padding: 0 20px;
+}
+
+#moreFarm {
+  top: 15%;
+  left: 3%;
+  display: inline-block;
+  outline: 0;
+  font-weight: 600;
+  border-radius: 4px;
+  height: 60px;
+  background-color: grey;
+  color: white;
+  padding: 0 20px;
+}
+
+.btn {
+  margin: 5px;
+  position: absolute;
+  transition: 0.1s;
+  cursor: pointer;
+  font-size: 30px;
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(0.95, 0.95);
+}
+
+#dmgUpgrade {
+  top: 41%;
+  left: 3%;
+  display: inline-block;
+  outline: 0;
+  font-weight: 600;
+  border-radius: 4px;
+  height: 60px;
+  background-color: grey;
+  color: white;
+  padding: 0 20px;
+}
+
+#save {
+  top: 2%;
+  left: 87%;
+  display: block;
+  outline: 0;
+  font-size: 45px;
+  font-weight: 600;
+  border-radius: 4px;
+  height: 60px;
+  background-color: Green;
+  color: white;
+  padding: 0 20px;
+}
+
+
+#load {
+  top: 10%;
+  left: 87%;
+  display: block;
+  outline: 0;
+  font-size: 45px;
+  font-weight: 600;
+  border-radius: 4px;
+  height: 60px;
+  background-color: Green;
+  color: white;
+  padding: 0 20px;
+}
+
+.autosave {
+  position: absolute;
+  top: 94%;
+  left: 96.5%;
+  height: 50px;
+}
+
+.asTxt {
+  font-size: 20px;
+  font-family: "Tahoma", sans-serif;
+  color: yellowgreen;
+  position: absolute;
+  top: 92%;
+  left: 93%;
+}
+
+#autosaving {
+  display: none;
+}
+
+#carIcon {
+  height: 50px;
+}

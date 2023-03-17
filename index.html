@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Eat da Banana</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="toggle.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body onload="load()">
+  <h1 id="bananaCounter">Bananas: 🍌0 Per Click</h1>
+  <h1 id="bps">BPS: (🍌0 Per Sec)</h1>
+  <img src="" id="banana" onclick="pressBanana()">
+  
+    
+  <button class="btn" id="perClick" onclick="perClick()"></button>
+  <button class="btn" id="moreFarm" onclick="getFarm()"></button>
+  <button class="btn" id="farmUpgrade" onclick="farmUpgrade()"></button>
+  <button class="btn" id="dmgUpgrade" onclick="getDmg()"></button>
+  <button class="btn" id="save" onclick="saveGame()">Save</button>
+  <button class="btn" id="load" onclick="loadSave()">Load</button>
+
+  <div id="autosaving">
+    <h5 class="asTxt">Saving</h5><img src="images/autosave.gif" class="autosave">
+  </div>
+</body>
+
+</html>
